@@ -1,0 +1,287 @@
+.fundo{
+    margin:0;
+    background-color: brown;
+}
+.fundoadm{
+    margin:0;
+    background-color: bisque;
+}
+.fundo .menu{
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: brown;
+    height:50px;
+    max-height:100%;
+}
+.submenus{
+    margin-left:10px;
+    width:35%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#btns{
+        box-shadow:  inset 0 0 1em darkred; 
+        background-color:floralwhite;
+        border: none;
+        color: brown;
+        height:40px;
+        width:100px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 8px;
+        -webkit-transition-duration: 0.2s; 
+        transition-duration: 0.2s;
+        cursor: pointer;
+}
+#btns:hover{
+    background-color: gold;
+    color:blueviolet; 
+}
+.adm{
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+}
+#adm{
+    max-height: 100%;
+    box-shadow:  inset 0 0 1em darkred;
+    height:40px;
+    width:100px ;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color:floralwhite;
+    border: none;
+    color: brown;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+#adm:hover{
+    background-color: gold;
+    color:blueviolet;
+}
+.topo{
+    border-radius: 15px;
+    display:flex;
+    justify-content: space-between;
+    box-shadow:  inset 0 0 3em darkgoldenrod;  
+    height:200px;
+    background-color: floralwhite;
+    width:100%;
+}
+.logo{
+    max-width:100% ;
+    height:190px;  
+    float:left; 
+    margin-left:7%; 
+    margin-top:4px;
+}
+.titulos{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height:135px;
+    margin-right:70px;
+}
+.titulo{
+    text-shadow: 5px 5px 5px brown;
+    height:1vw;
+    font-weight:lighter;
+    font-size:8vw;
+    font-family: 'Courier New';
+    color: black
+}
+.subtitulo{
+    text-shadow: 5px 5px 5px brown;
+    font-weight:lighter;
+    font-size:3vw;
+    text-align:center;
+    font-family: 'Courier New';
+    color:black; 
+}
+.corpo1{
+    background-color:brown;
+    color: brown;
+    height:1000px;
+}
+.rodape{
+    width:100%;
+    background-color: darksalmon;
+    height:140px;
+    width:100%;
+    box-shadow: inset 0 0 1em darkred; 
+}
+.corpo1 .produtos{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+    align-items: initial;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:1100px;
+    margin-left:150px;
+    height:800px;
+    align-content: center;
+}
+.itens{
+    border-radius:50px;
+    background-color: indianred;
+    width:250px;
+    height:250px;
+    box-shadow: 0 0 1em black; 
+}
+.blocos{
+    margin-top: 25px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.descricao{
+    display: flex;
+}
+.back{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.texto{
+    text-shadow: 0px 0px 10px midnightblue, 0px 0px 10px deeppink;
+    border-radius:8px;
+    height:3px;
+    display: flex;
+    font-size:35px;
+    font-weight: lighter;
+    color: gold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btns{
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow:  inset 0 0 1em gold;
+    background-color:floralwhite;
+    border: none;
+    color:chocolate;
+    height:45px;
+    width:100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: chocolate;
+    color: blue; 
+}
+.corpo{
+    height: 100%;
+}
+.corpo .faxada{
+    max-height:100%;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.vitrine{
+    margin-bottom: 100px;
+    max-width: 100%;
+    border-radius: 25px;
+    margin-left:20px;
+    margin-right:20px;
+    box-shadow:  0 0 3em gold;
+    margin-top: 50px;
+    height:550px;
+}
+.corpo2{
+    height:100%;
+}
+.corpo2 .sobre{
+    margin-bottom:25% ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height:400px;
+}
+.conteiner{
+    margin-top: 50px;
+    height:400px;
+}
+.porta{
+    margin-right:60%;
+    border-radius: 10px;
+    width:750px;
+    height:700px;
+}
+#apresentacao{
+    border-radius:8px;
+    text-shadow: 5px 5px 3px black;
+    margin-bottom: 40px;
+    width: 1000px;
+    text-align: justify;
+    margin-right:1%;
+    color:gold;
+    font-size: 35px;
+    font-family: Painter ;
+    font-weight:lighter;
+}
+.apresentacao{
+    text-shadow: 5px 5px 3px black;
+    margin-top: 5px;
+    width: 500px;
+    text-align: justify;
+    margin-left:45%;
+    color:gold;
+    font-size: 60px;
+    font-family: Painter;
+    font-weight: lighter;
+}
+@font-face{
+   font-family:Mella Nissa;
+   src: url('fontes/Mella\ Nissa.ttf');
+   font-family: Painter ;
+   src: url('fontes/Painter_PERSONAL_USE_ONLY.ttf');
+}
+.corpo3 .contatos{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 800px;
+}
+.barra{
+    margin-top: 10%;
+    width:80%;
+    border-radius: 10px;
+    height: 30px;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    text-align: justify;
+    color:black;
+    font-size: 40px;
+    font-family:Mella Nissa;
+    font-weight: 100px;
+    text-shadow: 0px 0px 10px gold, 0px 0px 10px deepskyblue;
+}
+.corpo5{
+    height:auto;
+}
+.corpor5.Listas{
+    display: flex;
+    margin-top: 10%;
+    
+}

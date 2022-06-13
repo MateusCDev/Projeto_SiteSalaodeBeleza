@@ -1,0 +1,57 @@
+a:hover, a:active {
+    color: yellow;
+    background-color: cornsilk;
+    text-decoration: underline;
+
+} a:link, a:visited {
+        
+        background-color: blueviolet;
+        text-decoration: none;
+        text align:center;
+        text-decoration:none;
+        display: inline-block;
+        padding: 15px 25px;
+    }
+    #topo{
+        background-image:url("../img/kuat-gif.jpg");
+        width:100%;
+        height:400px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    table{
+        background-color:ghostwhite;
+        border: 2px solid darkslateblue;
+        width:200px;
+        height:20px;
+
+    }
+     td {
+        border: 2px solid darkslateblue;
+        height:20px;
+      }
+      table#t01 tr:nth-child(even) {
+        background-color: #eee;
+      }
+      table#t01 tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      table#t01 th {
+        color: white;
+        background-color: black;
+        text-align: center;
+  
+      }
+  #rodape{
+    background-color:cornflowerblue ;
+    color:darkorange;
+    padding:20px;
+    text-align:center ;
+  }
+  #sp{
+    color:darkred;
+    }
+    h1{
+      text-align:center;
+    }
